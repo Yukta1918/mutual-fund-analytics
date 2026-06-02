@@ -3,7 +3,7 @@ import os
 
 folder_path = "data/raw"
 
-csv_files = [f for f in os.listdir(folder_path) if f.endswith(".csv")]
+csv_files = [f for f in os.listdir(folder_path) if f.endswith(".csv") and (f.startswith("0") or f.startswith("1"))]
 
 for file in csv_files:
     print("\n" + "="*60)

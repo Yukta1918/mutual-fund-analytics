@@ -11,7 +11,7 @@ schemes = {
     "Kotak_Bluechip":120841
 }
 
-save_folder = "data/raw"
+save_folder = "data/processed"
 
 for name, code in schemes.items():
 
